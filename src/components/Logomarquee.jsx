@@ -31,7 +31,7 @@ const logos2 = [
 
 export default function Logomarquee() {
   return (
-    <div className="my-4 md:my-8 mx-2 md:mx-0 px-3 md:px-6 py-4 md:py-6 rounded-md bg-white/10 backdrop-blur-sm overflow-hidden">
+    <div className="my-4 md:my-8 mx-2 md:mx-0 px-3 md:px-6 py-4 md:py-6 rounded-md bg-white/80 backdrop-blur-sm overflow-hidden">
       {/* First Marquee: default left-to-right */}
       <div className="overflow-hidden">
         <Marquee
@@ -40,10 +40,13 @@ export default function Logomarquee() {
           speed={50}
           pauseOnHover={false}
           loop={0}
-          style={{ overflow: 'visible' }}
+          style={{ overflow: "visible" }}
         >
           {logos.map(({ src, alt }, idx) => (
-            <div key={idx} className="flex items-center justify-center mx-4 sm:mx-6 md:mx-8 lg:mx-12 h-12 sm:h-14 md:h-16 lg:h-20">
+            <div
+              key={idx}
+              className="flex items-center justify-center mx-4 sm:mx-6 md:mx-8 lg:mx-12 h-12 sm:h-14 md:h-16 lg:h-20"
+            >
               <img
                 src={src}
                 alt={alt}
@@ -54,7 +57,7 @@ export default function Logomarquee() {
           ))}
         </Marquee>
       </div>
-      
+
       {/* Second Marquee: right-to-left */}
       <div className="overflow-hidden mt-4 md:mt-8">
         <Marquee
@@ -64,10 +67,13 @@ export default function Logomarquee() {
           speed={50}
           pauseOnHover={false}
           loop={0}
-          style={{ overflow: 'visible' }}
+          style={{ overflow: "visible" }}
         >
           {logos2.map(({ src, alt }, idx) => (
-            <div key={idx} className="flex items-center justify-center mx-4 sm:mx-6 md:mx-8 lg:mx-12 h-12 sm:h-14 md:h-16 lg:h-20">
+            <div
+              key={idx}
+              className="flex items-center justify-center mx-4 sm:mx-6 md:mx-8 lg:mx-12 h-12 sm:h-14 md:h-16 lg:h-20"
+            >
               <img
                 src={src}
                 alt={alt}

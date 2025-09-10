@@ -14,9 +14,11 @@ const Header = ({ scrollToSection }) => {
   const textColor = "#FFFFFF";
   const menuItems = [
     { label: "Home", id: "home" },
+    { label: "What we offer", id: "whatweoffer" },
     { label: "About", id: "about" },
     { label: "Services", id: "services" },
-    { label: "What we offer", id: "whatweoffer" },
+    { label: "Projects", id: "projects" },
+    { label: "FAQ", id: "faq" },
     { label: "Contact", id: "contact" },
   ];
 
@@ -80,7 +82,7 @@ const Header = ({ scrollToSection }) => {
             {menuItems.map(({ label, id }) => (
               <a
                 key={id}
-                href="#"
+                href={`#${id}`}
                 onClick={(e) => {
                   e.preventDefault();
                   scrollToSection(id);
@@ -91,13 +93,7 @@ const Header = ({ scrollToSection }) => {
                 {label}
               </a>
             ))}
-            <button
-              onClick={() => (window.location.href = "/start-project")}
-              className="cursor-pointer inline-flex items-center justify-center px-5 py-2 text-base font-poppins-regular leading-6 transition-all duration-200 border rounded-full focus:outline-none hover:bg-white/10"
-              style={{ color: textColor, borderColor: textColor }}
-            >
-              Start a project
-            </button>
+            {/* Removed "Start a project" button */}
           </nav>
         </div>
 
@@ -114,7 +110,7 @@ const Header = ({ scrollToSection }) => {
                 {menuItems.map(({ label, id }) => (
                   <a
                     key={id}
-                    href="#"
+                    href={`#${id}`}
                     onClick={(e) => {
                       e.preventDefault();
                       scrollToSection(id);
@@ -126,16 +122,7 @@ const Header = ({ scrollToSection }) => {
                     {label}
                   </a>
                 ))}
-                <button
-                  onClick={() => {
-                    window.location.href = "/start-project";
-                    setMenuOpen(false);
-                  }}
-                  className="cursor-pointer inline-flex items-center justify-center px-5 py-3 text-base font-poppins-regular leading-6 transition-all duration-200 border rounded-full focus:outline-none hover:bg-white/10 mt-4"
-                  style={{ color: "#FFFFFF", borderColor: "#FFFFFF" }}
-                >
-                  Start a project
-                </button>
+                {/* Removed mobile "Start a project" button */}
               </nav>
             </div>
           </div>

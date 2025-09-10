@@ -11,8 +11,9 @@ const ServiceSection = () => {
             Services
           </span>
         </h1>
-        <p className="text-base md:text-lg lg:text-xl text-zinc-400 font-[neu] mt-4 max-w-xl mx-auto">
-          Discover our comprehensive range of solutions designed to elevate your business
+        <p className="text-base md:text-lg lg:text-xl text-zinc-400 font-[neu] mt-4 max-w-3xl mx-auto">
+          Discover our comprehensive range of solutions designed to elevate your
+          business
         </p>
       </div>
 

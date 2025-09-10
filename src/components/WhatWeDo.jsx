@@ -13,7 +13,7 @@ export default function WhatWeDoSection() {
       </h2>
 
       {/* Paragraphs */}
-      <div className="max-w-3xl mx-auto space-y-6 text-gray-300">
+      <div className="max-w-6xl mx-auto space-y-6 text-gray-300">
         <p className="text-lg sm:text-xl leading-relaxed font-[neu]">
           At{" "}
           <span className="text-indigo-400 font-semibold">Navi Infotech</span>,

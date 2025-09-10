@@ -44,7 +44,7 @@ const FAQSection = () => {
 
   return (
     <div className="min-h-screen bg-black text-white font-[neu]">
-      <div className="container mx-auto px-6 py-16">
+      <div className="container mx-auto px-6 py-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
           {/* Left Side - "Frequently Asked" Text */}
           <div className="flex items-start justify-start">
