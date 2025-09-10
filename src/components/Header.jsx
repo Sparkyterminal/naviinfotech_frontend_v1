@@ -16,8 +16,8 @@ const Header = ({ scrollToSection }) => {
     { label: "Home", id: "home" },
     { label: "What we offer", id: "whatweoffer" },
     { label: "About", id: "about" },
-    { label: "Services", id: "services" },
     { label: "Projects", id: "projects" },
+    { label: "Services", id: "services" },
     { label: "FAQ", id: "faq" },
     { label: "Contact", id: "contact" },
   ];
