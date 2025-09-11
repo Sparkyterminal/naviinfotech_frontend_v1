@@ -31,12 +31,19 @@ const Header = ({ scrollToSection }) => {
     >
       <div className="px-6 mx-auto sm:px-8 lg:px-12 max-w-7xl">
         <div className="flex items-center justify-between">
-          <div
+          {/* <div
             className="flex flex-shrink-0 text-3xl font-[neu]"
             style={{ color: textColor }}
           >
             Navi Infotech
-          </div>
+          </div> */}
+          <div>
+            <img
+              src="/assets/logo1.png"
+              alt="Navi Infotech Logo"
+              className="h-22 w-auto"
+            />
+            </div>
           <div className="md:hidden">
             <button
               type="button"

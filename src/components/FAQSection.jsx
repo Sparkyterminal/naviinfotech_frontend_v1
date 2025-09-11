@@ -43,15 +43,16 @@ const FAQSection = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-black text-white font-[neu]">
+    <div className="max-h-screen bg-black text-white font-[neu]">
       <div className="container mx-auto px-6 py-10">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-10">
           {/* Left Side - "Frequently Asked" Text */}
           <div className="flex items-start justify-start">
             <div className="sticky top-16">
-              <h1 className="text-6xl lg:text-7xl xl:text-8xl font-light leading-tight">
+              <h1 className="text-6xl lg:text-6xl xl:text-7xl font-light leading-tight">
                 <span className="block text-gray-400">Frequently</span>
                 <span className="block text-white">Asked</span>
+                <span className="block text-white">Questions</span>
               </h1>
               <div className="w-16 h-1 bg-blue-500 mt-6"></div>
             </div>

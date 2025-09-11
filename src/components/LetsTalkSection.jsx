@@ -1,6 +1,6 @@
 export default function LetsTalkSection() {
   return (
-    <section className="bg-black text-gray-300 px-6 pb-7 w-full">
+    <section className="bg-black text-gray-300 px-6 pt-50 pb-7 w-full">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-5xl md:text-6xl font-bold text-white mb-6 text-center tracking-tight">
           Let's Talk
