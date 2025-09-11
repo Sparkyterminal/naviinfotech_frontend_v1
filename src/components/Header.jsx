@@ -25,7 +25,7 @@ const Header = ({ scrollToSection }) => {
   return (
     <header
       style={{ backgroundColor: bgColor }}
-      className={`fixed inset-x-0 top-0 z-30 py-4 xl:py-6 transition-colors duration-300 ${
+      className={`fixed inset-x-0 top-0 z-30 py-2 xl:py-2 transition-colors duration-300 ${
         isSticky ? "shadow-md" : ""
       }`}
     >
