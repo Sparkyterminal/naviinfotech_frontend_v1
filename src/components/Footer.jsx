@@ -7,9 +7,9 @@ export default function Footer() {
       <div className="flex flex-col items-center">
         {/* Logo */}
         <img
-          src="/assets/navi-infotech.png"
+          src="/assets/logo1.png"
           alt="Company Logo"
-          className="w-40 h-40 object-contain rounded-full bg-white mb-6 border-2 border-gray-700"
+          className="w-50 h-50 object-contain"
         />
 
         {/* Navigation Links */}

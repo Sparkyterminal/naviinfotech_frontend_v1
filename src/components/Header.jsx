@@ -41,7 +41,7 @@ const Header = ({ scrollToSection }) => {
             <img
               src="/assets/logo1.png"
               alt="Navi Infotech Logo"
-              className="h-22 w-auto"
+              className="h-20 w-auto"
             />
             </div>
           <div className="md:hidden">
