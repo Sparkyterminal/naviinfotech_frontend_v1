@@ -25,18 +25,25 @@ const Header = ({ scrollToSection }) => {
   return (
     <header
       style={{ backgroundColor: bgColor }}
-      className={`fixed inset-x-0 top-0 z-30 py-4 xl:py-6 transition-colors duration-300 ${
+      className={`fixed inset-x-0 top-0 z-30 py-2 xl:py-2 transition-colors duration-300 ${
         isSticky ? "shadow-md" : ""
       }`}
     >
       <div className="px-6 mx-auto sm:px-8 lg:px-12 max-w-7xl">
         <div className="flex items-center justify-between">
-          <div
+          {/* <div
             className="flex flex-shrink-0 text-3xl font-[neu]"
             style={{ color: textColor }}
           >
             Navi Infotech
-          </div>
+          </div> */}
+          <div>
+            <img
+              src="/assets/logo1.png"
+              alt="Navi Infotech Logo"
+              className="h-20 w-auto"
+            />
+            </div>
           <div className="md:hidden">
             <button
               type="button"

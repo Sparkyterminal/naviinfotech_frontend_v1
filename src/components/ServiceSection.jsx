@@ -18,7 +18,7 @@ const ServiceSection = () => {
       </div>
 
       {/* Services Cards Section */}
-      <div className="w-full max-w-7xl pb-16 sm:pb-20 lg:pb-24 flex justify-center">
+      <div className="w-full max-w-7xl pb-10 sm:pb-20 lg:pb-20 flex justify-center">
         {/* Cards are assumed to be responsive, but you can wrap below in a responsive grid if needed */}
         <ServiceCards />
       </div>

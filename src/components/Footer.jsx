@@ -7,9 +7,9 @@ export default function Footer() {
       <div className="flex flex-col items-center">
         {/* Logo */}
         <img
-          src="/assets/navi-infotech.png"
+          src="/assets/logo1.png"
           alt="Company Logo"
-          className="w-30 h-30 object-contain rounded-full bg-white mb-6 border-2 border-gray-700"
+          className="w-50 h-50 object-contain"
         />
 
         {/* Navigation Links */}
@@ -27,7 +27,7 @@ export default function Footer() {
             href="https://www.instagram.com/navi.infotech/?igsh=dTBiOGVpbGd6czNz&utm_source=qr#"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 rounded-full flex items-center justify-center bg-neutral-900 text-gray-300 hover:text-white transition"
+            className="w-15 h-15 rounded-full flex items-center justify-center bg-neutral-900 text-gray-300 hover:text-white transition"
           >
             <FaInstagram />
           </a>
@@ -35,13 +35,13 @@ export default function Footer() {
             href="https://www.linkedin.com/company/navi-infotech/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 rounded-full flex items-center justify-center bg-neutral-900 text-gray-300 hover:text-white transition"
+            className="w-15 h-15 rounded-full flex items-center justify-center bg-neutral-900 text-gray-300 hover:text-white transition"
           >
             <FaLinkedinIn />
           </a>
           <a
             href="mailto:sangeetha.m@naviinfo.tech"
-            className="w-10 h-10 rounded-full flex items-center justify-center bg-neutral-900 text-gray-300 hover:text-white transition"
+            className="w-15 h-15 rounded-full flex items-center justify-center bg-neutral-900 text-gray-300 hover:text-white transition"
           >
             <FaEnvelope />
           </a>
