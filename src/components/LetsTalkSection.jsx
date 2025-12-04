@@ -21,10 +21,10 @@ export default function LetsTalkSection() {
           <div className="flex items-center space-x-4">
             <div className="text-2xl">📧</div>
             <a
-              href="mailto:sangeetha.m@naviinfo.tech"
+              href="mailto:naveenchandra@naviinfo.tech"
               className="text-gray-300 hover:text-white font-medium text-lg"
             >
-              sangeetha.m@naviinfo.tech
+              naveenchandra@naviinfo.tech
             </a>
           </div>
 

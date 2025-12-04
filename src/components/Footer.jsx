@@ -40,7 +40,7 @@ export default function Footer() {
             <FaLinkedinIn />
           </a>
           <a
-            href="mailto:sangeetha.m@naviinfo.tech"
+            href="mailto:naveenchandra@naviinfo.tech"
             className="w-15 h-15 rounded-full flex items-center justify-center bg-neutral-900 text-gray-300 hover:text-white transition"
           >
             <FaEnvelope />
