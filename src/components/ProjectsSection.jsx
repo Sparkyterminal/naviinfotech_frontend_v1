@@ -14,13 +14,21 @@ const projectsData = [
     image: "assets/dancedistrict.jpeg",
     website: "https://www.thedancedistrict.in/",
   },
+  // {
+  //   id: 2,
+  //   title: "talkitoutwithyl",
+  //   description:
+  //     "talkitoutwithyl is a safe space to share your thoughts, feelings, and challenges. We connect you with professional guidance through one-on-one sessions designed to help you heal, grow, and find clarity.",
+  //   image: "assets/keerthana.png",
+  //   website: "https://www.talkitoutwithyl.com/",
+  // },
   {
     id: 2,
-    title: "talkitoutwithyl",
+    title: "Sky Blue Event Management",
     description:
-      "talkitoutwithyl is a safe space to share your thoughts, feelings, and challenges. We connect you with professional guidance through one-on-one sessions designed to help you heal, grow, and find clarity.",
-    image: "assets/keerthana.png",
-    website: "https://www.talkitoutwithyl.com/",
+      "Sky Blue Event Management is a professional event management company that specializes in providing comprehensive event planning and execution services.",
+    image: "assets/skyb.png",
+    website: "https://www.skyblueeventmanagement.in/",
   },
   {
     id: 3,
@@ -32,11 +40,11 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "KitchenViz",
+    title: "Ovenia",
     description:
-      "KitchenViz is your one-stop e-commerce destination for premium kitchen appliances. From smart solutions to everyday essentials, we bring quality products that make cooking easier and more enjoyable.",
+      "Ovenia is your one-stop e-commerce destination for premium kitchen appliances. From smart solutions to everyday essentials, we bring quality products that make cooking easier and more enjoyable.",
     image: "assets/kitchenviz.png",
-    website: "https://www.kitchenvizbuy.com/",
+    website: "https://www.oveniashop.in/",
   },
   {
     id: 5,
