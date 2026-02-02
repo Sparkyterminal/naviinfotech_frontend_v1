@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { cn } from "../lib/utils";
 import { Lens } from "./ui/lens";
 
+
 const projectsData = [
   {
     id: 1,
@@ -14,16 +15,16 @@ const projectsData = [
     image: "assets/dancedistrict.jpeg",
     website: "https://www.thedancedistrict.in/",
   },
-  // {
-  //   id: 2,
-  //   title: "talkitoutwithyl",
-  //   description:
-  //     "talkitoutwithyl is a safe space to share your thoughts, feelings, and challenges. We connect you with professional guidance through one-on-one sessions designed to help you heal, grow, and find clarity.",
-  //   image: "assets/keerthana.png",
-  //   website: "https://www.talkitoutwithyl.com/",
-  // },
   {
     id: 2,
+    title: "talkitoutwithyl",
+    description:
+      "talkitoutwithyl is a safe space to share your thoughts, feelings, and challenges. We connect you with professional guidance through one-on-one sessions designed to help you heal, grow, and find clarity.",
+    image: "assets/keerthana.png",
+    website: "https://www.talkitoutwithyl.com/",
+  },
+  {
+    id: 3,
     title: "Sky Blue Event Management",
     description:
       "Sky Blue Event Management is a professional event management company that specializes in providing comprehensive event planning and execution services.",
@@ -31,7 +32,7 @@ const projectsData = [
     website: "https://www.skyblueeventmanagement.in/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Nuvo Hosting Agency",
     description:
       "Nuvo Hosting Agency specializes in providing professional hostesses and event management solutions, ensuring every event runs seamlessly and leaves a lasting impression.",
@@ -39,7 +40,7 @@ const projectsData = [
     website: "https://www.nuvohosting.org/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Ovenia",
     description:
       "Ovenia is your one-stop e-commerce destination for premium kitchen appliances. From smart solutions to everyday essentials, we bring quality products that make cooking easier and more enjoyable.",
@@ -47,7 +48,7 @@ const projectsData = [
     website: "https://www.oveniashop.in/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Madara Mahasabha",
     description:
       "Madara Mahasabha is a community website built to unite, empower, and support members of the Madara community. It serves as a platform for connection, collaboration, and cultural growth.",
@@ -55,14 +56,72 @@ const projectsData = [
     website: "https://www.madaramahasabha.com/",
   },
   {
-    id: 6,
-    title: "BGS School Management",
+    id: 7,
+    title: "Tarang Creators",
     description:
-      "BGS School Management is a smart attendance and dashboard system designed to simplify school administration. It helps track student attendance, monitor performance, and streamline daily operations.",
-    image: "assets/bgs.png",
-    website: "https://bgsckmschoolmanagement.org/",
+      "Tarang Creators is a dynamic musical team dedicated to creating soulful and energetic music experiences. They specialize in live performances, original compositions, and creative collaborations, bringing rhythm and harmony to every stage they perform on.",
+    image: "assets/tarang.png",
+    website: "https://www.tarangcreators.in/",
   },
 ];
+// const projectsData = [
+//   {
+//     id: 1,
+//     title: "The Dance District by Sahitya Yogesh",
+//     description:
+//       "The Dance District is a creative space where movement meets passion. Our studio is dedicated to helping dancers of all levels express themselves, build confidence, and grow through rhythm, technique, and community.",
+//     image: "assets/dancedistrict.jpeg",
+//     website: "https://www.thedancedistrict.in/",
+//   },
+//   // {
+//   //   id: 2,
+//   //   title: "talkitoutwithyl",
+//   //   description:
+//   //     "talkitoutwithyl is a safe space to share your thoughts, feelings, and challenges. We connect you with professional guidance through one-on-one sessions designed to help you heal, grow, and find clarity.",
+//   //   image: "assets/keerthana.png",
+//   //   website: "https://www.talkitoutwithyl.com/",
+//   // },
+//   {
+//     id: 2,
+//     title: "Sky Blue Event Management",
+//     description:
+//       "Sky Blue Event Management is a professional event management company that specializes in providing comprehensive event planning and execution services.",
+//     image: "assets/skyb.png",
+//     website: "https://www.skyblueeventmanagement.in/",
+//   },
+//   {
+//     id: 3,
+//     title: "Nuvo Hosting Agency",
+//     description:
+//       "Nuvo Hosting Agency specializes in providing professional hostesses and event management solutions, ensuring every event runs seamlessly and leaves a lasting impression.",
+//     image: "assets/nuvo.png",
+//     website: "https://www.nuvohosting.org/",
+//   },
+//   {
+//     id: 4,
+//     title: "Ovenia",
+//     description:
+//       "Ovenia is your one-stop e-commerce destination for premium kitchen appliances. From smart solutions to everyday essentials, we bring quality products that make cooking easier and more enjoyable.",
+//     image: "assets/kitchenviz.png",
+//     website: "https://www.oveniashop.in/",
+//   },
+//   {
+//     id: 5,
+//     title: "Madara Mahasabha",
+//     description:
+//       "Madara Mahasabha is a community website built to unite, empower, and support members of the Madara community. It serves as a platform for connection, collaboration, and cultural growth.",
+//     image: "assets/madara.png",
+//     website: "https://www.madaramahasabha.com/",
+//   },
+//   {
+//     id: 6,
+//     title: "BGS School Management",
+//     description:
+//       "BGS School Management is a smart attendance and dashboard system designed to simplify school administration. It helps track student attendance, monitor performance, and streamline daily operations.",
+//     image: "assets/bgs.png",
+//     website: "https://bgsckmschoolmanagement.org/",
+//   },
+// ];
 
 const ProjectCard = ({ project }) => {
   const [hovering, setHovering] = useState(false);
